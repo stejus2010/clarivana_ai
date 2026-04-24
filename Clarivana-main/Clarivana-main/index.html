@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Clarivana — App</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="chat.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- p5 + tesseract lib -->
+  <script src="./lib/p5.js"></script>
+  <script src="./lib/tesseract.min.js"></script>
+
+  <!-- Firebase libs -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+</head>
+
+<body>
+  <!-- ===== Navbar ===== -->
+  <header class="topnav breathing-glow">
+    <div class="nav-left">
+      <img src="./assets/logo.png" alt="logo" class="nav-logo">
+      <h3>Clarivana</h3>
+        <small style="font-size:12px;color:var(--muted);letter-spacing:1px;">Uncovering the unseen.</small>
+
+    </div>
+    <div class="nav-right">
+      <button id="open-settings" class="btn ghost">Account</button>
+      <button id="logout" class="btn ghost">Logout</button>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <!-- ===== Home ===== -->
+    <section id="home-screen" class="screen">
+      <div class="hero animate-fade">
+        <h1>See Clearly. Eat Safely.</h1>
+        <p class="lead">Clarivana helps you decode ingredients and protect your health instantly.</p>
+        <div class="home-actions">
+          <button id="go-scanner" class="btn primary">Open Scanner</button>
+          <button id="go-allergies" class="btn outline">My Allergies</button>
+        </div>
+      </div>
+
+      <div class="features">
+        <div id="feature-scan" class="feature-card glow clickable">
+          <h4>Smart Scan</h4>
+          <p>Point, capture, and let Clarivana analyze instantly.</p>
+        </div>
+        <div id="feature-health" class="feature-card glow clickable">
+          <h4>Health Guard</h4>
+          <p>Detect allergens before you consume.</p>
+        </div>
+        <div id="feature-history" class="feature-card glow clickable">
+          <h4>History Vault</h4>
+          <p>Review your past scans anytime.</p>
+        </div>
+      </div>
+
+      <!-- ===== Usage Progress ===== -->
+      <!-- <div class="usage-card glass">
+        <h3>Daily Usage</h3>
+        <div class="usage-item">
+          <label>Scans: <span id="scan-text">0/5</span></label>
+          <progress id="scan-progress" value="0" max="8"></progress>
+        </div>
+        <div class="usage-item">
+          <label>AI Analyses: <span id="ai-text">0/5</span></label>
+          <progress id="ai-progress" value="0" max="5"></progress>
+        </div>
+      </div> -->
+    </section>
+
+    <!-- ===== Scanner ===== -->
+    <section id="scanner-screen" class="screen" style="display:none;">
+      <div class="scanner-wrapper">
+        <div id="video-container" class="video-box glow"></div>
+        <div id="captured-image" class="captured-box glow"></div>
+      </div>
+
+      <div class="scanner-controls">
+        <button id="scan-button" class="btn primary">Scan</button>
+        <button id="gallery-button" class="btn outline">Select Image</button>
+        <input type="file" id="gallery-input" accept="image/*" style="display:none;">
+        <button id="edit-button" class="btn">Edit Text</button>
+        <button id="ai-button" class="btn secondary" style="display:none;">AI Analysis</button>
+        <button id="save-button" class="btn" style="display:none;">Save</button>
+        <button id="scan-another" class="btn outline" style="display:none;">Scan Another</button>
+
+      </div>
+
+      <textarea id="extracted-text" readonly placeholder="OCR output will appear here..."></textarea>
+      <div id="ai-result" class="ai-result-box glass" style="display:none;">
+        <h3>AI Ingredient Analysis 🧠</h3>
+        <p id="ai-output"></p>
+      </div>
+    </section>
+
+    <!-- ===== Allergies ===== -->
+    <section id="allergies-screen" class="screen" style="display:none;">
+      <h2>My Allergies</h2>
+      <p>List your allergies (comma separated)</p>
+      <textarea id="allergy-input" placeholder="Peanuts, Gluten"></textarea>
+      <div style="margin-top:12px">
+        <button id="save-allergies" class="btn primary">Save Allergies</button>
+      </div>
+    </section>
+
+    <!-- ===== History ===== -->
+    <section id="history-screen" class="screen" style="display:none;">
+      <h2>Scan History</h2>
+      <div id="history-list" class="history-list"></div>
+      <div style="margin-top:12px">
+        <button id="clear-history" class="btn outline">Clear History</button>
+      </div>
+    </section>
+
+    <!-- ===== Premium Upgrade ===== -->
+    <!-- <section id="premium-card" class="premium-section glass" style="display:none;">
+      <h2>Unlock Premium</h2>
+      <p class="lead">
+        Enjoy unlimited scans, deep AI analysis, and priority insights.
+      </p>
+      <div class="premium-card-inner">
+        <h3>Premium Plan</h3>
+        <p>Unlimited everything · Priority updates · Exclusive AI models</p>
+        <button id="upgrade-btn" class="btn primary">Go Premium 🚀</button>
+      </div>
+    </section> -->
+
+    <!-- ===== Chat ===== -->
+    <section id="chat-screen" class="screen" style="display:none;">
+      <div class="chat-container glass">
+        <div id="chat-box" class="chat-box">
+          <div class="bot-msg">
+            👋 Hey there! I’m <b>Clarivana AI</b> — your food intelligence assistant.<br>
+            Ask me about ingredients, allergens, or food safety tips!
+          </div>
+        </div>
+        <div class="chat-input-area">
+          <input type="text" id="user-input" placeholder="Ask something..." />
+          <button id="send-btn" class="btn primary">Send</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Bottom Nav ===== -->
+  <nav class="bottom-nav breathing-glow">
+    <button id="nav-home" class="bn active">Home</button>
+    <button id="nav-scanner" class="bn">Scanner</button>
+    <button id="nav-allergies" class="bn">Allergies</button>
+    <button id="nav-chat" class="bn">Chat</button>
+    <button id="nav-history" class="bn">History</button>
+  </nav>
+
+  <!-- Scripts -->
+  <script src="./firebase.js"></script>
+  <script src="./app.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="./chat.js"></script>
+
+  <script>
+    const screens = {
+      home: document.getElementById("home-screen"),
+      scanner: document.getElementById("scanner-screen"),
+      allergies: document.getElementById("allergies-screen"),
+      chat: document.getElementById("chat-screen"),
+      history: document.getElementById("history-screen"),
+    };
+
+    function showScreen(target) {
+      Object.values(screens).forEach(sec => sec.style.display = "none");
+      screens[target].style.display = "block";
+      document.querySelectorAll(".bn").forEach(b => b.classList.remove("active"));
+      document.getElementById(`nav-${target}`).classList.add("active");
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    document.getElementById("nav-home").onclick = () => showScreen("home");
+    document.getElementById("nav-scanner").onclick = () => showScreen("scanner");
+    document.getElementById("nav-allergies").onclick = () => showScreen("allergies");
+    document.getElementById("nav-chat").onclick = () => showScreen("chat");
+    document.getElementById("nav-history").onclick = () => showScreen("history");
+
+    // Feature card click navigation
+    document.getElementById("feature-scan").onclick = () => showScreen("scanner");
+    document.getElementById("feature-health").onclick = () => showScreen("allergies");
+    document.getElementById("feature-history").onclick = () => showScreen("history");
+    function showScreen(target) {
+      const current = Object.values(screens).find(sec => sec.style.display !== "none");
+      if (current) {
+        current.style.opacity = 0;
+        setTimeout(() => {
+          current.style.display = "none";
+          screens[target].style.display = "block";
+          setTimeout(() => screens[target].style.opacity = 1, 50);
+        }, 300);
+      } else {
+        screens[target].style.display = "block";
+        screens[target].style.opacity = 1;
+      }
+      document.querySelectorAll(".bn").forEach(b => b.classList.remove("active"));
+      document.getElementById(`nav-${target}`).classList.add("active");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    // ===== Ambient & Haptic Feedback =====
+    const clickSound = new Audio("./assets/ui-click.mp3"); // you can use any short click sound
+
+    function playClick() {
+      clickSound.currentTime = 0;
+      clickSound.volume = 0.25;
+      clickSound.play().catch(() => {}); // ignore autoplay block errors
+      if (navigator.vibrate) navigator.vibrate(15);
+    }
+
+    document.querySelectorAll("button, .feature-card").forEach(el => {
+      el.addEventListener("click", playClick);
+    });
+
+  </script>
+</body>
+</html>
