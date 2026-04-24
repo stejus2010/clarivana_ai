@@ -1,0 +1,6224 @@
+{
+  "harmfulIngredients": [
+    {
+      "id": "aspartame",
+      "name": "Aspartame",
+      "aliases": [],
+      "category": "Artificial Sweetener",
+      "riskLevel": "High",
+      "description": "Aspartame is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "aspartame May cause headaches and allergic reactions in some individuals"
+        },
+        {
+          "type": "General",
+          "effect": "Potential links to cancer in long-term studies"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sucralose",
+      "name": "Sucralose",
+      "aliases": [],
+      "category": "Artificial Sweetener",
+      "riskLevel": "Moderate",
+      "description": "Sucralose is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "sucralose May alter gut bacteria and cause digestive issues"
+        },
+        {
+          "type": "General",
+          "effect": "Potential metabolic effects"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "saccharin",
+      "name": "Saccharin",
+      "aliases": [],
+      "category": "Artificial Sweetener",
+      "riskLevel": "High",
+      "description": "Saccharin is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "saccharin Linked to bladder cancer in animal studies"
+        },
+        {
+          "type": "General",
+          "effect": "Generally safe for humans in moderation"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "red_40",
+      "name": "Red 40",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Moderate",
+      "description": "Red 40 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "red 40 Associated with hyperactivity in children"
+        },
+        {
+          "type": "General",
+          "effect": "Potential allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "yellow_5",
+      "name": "Yellow 5",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Moderate",
+      "description": "Yellow 5 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "yellow 5 May cause allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Linked to hyperactivity in sensitive children"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "yellow_6",
+      "name": "Yellow 6",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Moderate",
+      "description": "Yellow 6 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "yellow 6 Potential allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Possible behavioral effects"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "blue_1",
+      "name": "Blue 1",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Low",
+      "description": "Blue 1 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "blue 1 May trigger allergies"
+        },
+        {
+          "type": "General",
+          "effect": "Potential behavioral effects in children"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sodium_benzoate",
+      "name": "Sodium benzoate",
+      "aliases": [],
+      "category": "Preservative",
+      "riskLevel": "High",
+      "description": "Sodium benzoate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "sodium benzoate Can form benzene when combined with vitamin C, a known carcinogen"
+        },
+        {
+          "type": "General",
+          "effect": "Linked to hyperactivity in children"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "potassium_sorbate",
+      "name": "Potassium sorbate",
+      "aliases": [],
+      "category": "Preservative",
+      "riskLevel": "Moderate",
+      "description": "Potassium sorbate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "potassium sorbate May cause skin irritation or allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "high_fructose_corn_syrup",
+      "name": "High fructose corn syrup",
+      "aliases": [],
+      "category": "Artificial Sweetener",
+      "riskLevel": "Low",
+      "description": "High fructose corn syrup is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "high fructose corn syrup is Linked to obesity, type 2 diabetes, and fatty liver"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "monosodium_glutamate",
+      "name": "Monosodium glutamate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Monosodium glutamate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "monosodium glutamate may cause headaches and allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Some report sensitivity symptoms like nausea"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "msg",
+      "name": "Msg",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Msg is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "MSG may cause headaches and allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Some report sensitivity symptoms like nausea"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sodium_nitrite",
+      "name": "Sodium nitrite",
+      "aliases": [],
+      "category": "Salt / Mineral Additive",
+      "riskLevel": "High",
+      "description": "Sodium nitrite is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "sodium nitrite May form carcinogenic nitrosamines in cooked meats"
+        },
+        {
+          "type": "General",
+          "effect": "Linked to stomach and colorectal cancer risks"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "potassium_bromate",
+      "name": "Potassium bromate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Potassium bromate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "potassium bromate is classified as a potential carcinogen"
+        },
+        {
+          "type": "General",
+          "effect": "Linked to kidney and thyroid problems"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "titanium_dioxide",
+      "name": "Titanium dioxide",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Titanium dioxide is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "titanium dioxide gives Potential digestive issues"
+        },
+        {
+          "type": "General",
+          "effect": "Linked to cancer in animal studies"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "azodicarbonamide",
+      "name": "Azodicarbonamide",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Azodicarbonamide is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "azodicarbonamide Potentially gives respiratory issues"
+        },
+        {
+          "type": "General",
+          "effect": "Linked to cancer in animal studies"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "propylparaben",
+      "name": "Propylparaben",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Propylparaben is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "propylparaben: Hormonal disruption"
+        },
+        {
+          "type": "General",
+          "effect": "Potential reproductive toxicity"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "butylated_hydroxyanisole",
+      "name": "Butylated hydroxyanisole",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Butylated hydroxyanisole is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "butylated hydroxyanisole gives Possible cancer risk"
+        },
+        {
+          "type": "General",
+          "effect": "May cause liver damage in high doses"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "bha",
+      "name": "Bha",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Bha is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "BHA: Possible cancer risk"
+        },
+        {
+          "type": "General",
+          "effect": "May cause liver damage in high doses"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "butylated_hydroxytoluene",
+      "name": "Butylated hydroxytoluene",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Butylated hydroxytoluene is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "butylated hydroxytoluene: Possible cancer risk"
+        },
+        {
+          "type": "General",
+          "effect": "May cause liver damage in high doses"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "bht",
+      "name": "Bht",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Bht is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "BHT: Possible cancer risk"
+        },
+        {
+          "type": "General",
+          "effect": "May cause liver damage in high doses"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "azorubine",
+      "name": "Azorubine",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Azorubine is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Azorubine is linked to hyperactivity in children"
+        },
+        {
+          "type": "General",
+          "effect": "Azorubine may cause allergic reactions in sensitive individuals"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "carrageenan",
+      "name": "Carrageenan",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Carrageenan is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Carrageenan may trigger inflammation and digestive issues"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sorbitol",
+      "name": "Sorbitol",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Sorbitol is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sorbitol may cause digestive issues in large amounts"
+        },
+        {
+          "type": "General",
+          "effect": "Sorbitol may cause diarrhea"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "propylene_glycol",
+      "name": "Propylene glycol",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Propylene glycol is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Propylene glycol may cause skin irritation"
+        },
+        {
+          "type": "General",
+          "effect": "Propylene glycol may cause possible kidney damage in high intake"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "polysorbate_80",
+      "name": "Polysorbate 80",
+      "aliases": [],
+      "category": "Preservative",
+      "riskLevel": "Moderate",
+      "description": "Polysorbate 80 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Polysorbate 80 may cause digestive issues"
+        },
+        {
+          "type": "General",
+          "effect": "Polysorbate 80 may have possible gut health effects"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "carboxymethyl_cellulose",
+      "name": "Carboxymethyl cellulose",
+      "aliases": [],
+      "category": "Thickener / Stabilizer",
+      "riskLevel": "Moderate",
+      "description": "Carboxymethyl cellulose is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Carboxymethyl cellulose may cause digestive issues"
+        },
+        {
+          "type": "General",
+          "effect": "Carboxymethyl cellulose may cause potential metabolic effects"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "cmc",
+      "name": "Cmc",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Cmc is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "CMC may cause digestive issues"
+        },
+        {
+          "type": "General",
+          "effect": "CMC may cause potential metabolic effects"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "hydrogenated_oils",
+      "name": "Hydrogenated oils",
+      "aliases": [],
+      "category": "Fats and Oils",
+      "riskLevel": "Low",
+      "description": "Hydrogenated oils is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Hydrogenated oils contain trans fats"
+        },
+        {
+          "type": "General",
+          "effect": "Hydrogenated oils are linked to heart disease and obesity"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "trans_fats",
+      "name": "Trans fats",
+      "aliases": [],
+      "category": "Fats and Oils",
+      "riskLevel": "Low",
+      "description": "Trans fats is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Trans fats increase LDL cholesterol"
+        },
+        {
+          "type": "General",
+          "effect": "Trans fats are linked to heart disease"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "palm_oil",
+      "name": "Palm oil",
+      "aliases": [],
+      "category": "Fats and Oils",
+      "riskLevel": "Low",
+      "description": "Palm oil is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Palm oil is high in saturated fats"
+        },
+        {
+          "type": "General",
+          "effect": "Palm oil is linked to cardiovascular disease in excess"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "vegetable_oil_(refined)",
+      "name": "Vegetable oil (refined)",
+      "aliases": [],
+      "category": "Fats and Oils",
+      "riskLevel": "Low",
+      "description": "Vegetable oil (refined) is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Vegetable oil (refined) excessive omega-6 intake may cause inflammation"
+        },
+        {
+          "type": "General",
+          "effect": "Vegetable oil (refined) may cause potential oxidative damage when heated"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "canola_oil",
+      "name": "Canola oil",
+      "aliases": [],
+      "category": "Fats and Oils",
+      "riskLevel": "Low",
+      "description": "Canola oil is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Canola oil may contain omega-6 fatty acids in excess"
+        },
+        {
+          "type": "General",
+          "effect": "Canola oil may oxidize easily when processed"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "soybean_oil",
+      "name": "Soybean oil",
+      "aliases": [],
+      "category": "Fats and Oils",
+      "riskLevel": "Low",
+      "description": "Soybean oil is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Soybean oil’s high omega-6 content may cause inflammation"
+        },
+        {
+          "type": "General",
+          "effect": "Soybean oil may act as a potential allergen for sensitive individuals"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "corn_syrup",
+      "name": "Corn syrup",
+      "aliases": [],
+      "category": "Artificial Sweetener",
+      "riskLevel": "Low",
+      "description": "Corn syrup is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Corn syrup is high in fructose"
+        },
+        {
+          "type": "General",
+          "effect": "Corn syrup is linked to obesity and metabolic syndrome"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "dextrose",
+      "name": "Dextrose",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Dextrose is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Dextrose may cause blood sugar spikes"
+        },
+        {
+          "type": "General",
+          "effect": "Dextrose may lead to potential insulin resistance"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "glucose",
+      "name": "Glucose",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Glucose is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Glucose may cause blood sugar spikes"
+        },
+        {
+          "type": "General",
+          "effect": "Glucose may increase risk for metabolic disorders"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "fructose",
+      "name": "Fructose",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Fructose is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Fructose excess intake is linked to fatty liver disease"
+        },
+        {
+          "type": "General",
+          "effect": "Fructose can cause insulin resistance"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "maltodextrin",
+      "name": "Maltodextrin",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Maltodextrin is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Maltodextrin may cause blood sugar spikes"
+        },
+        {
+          "type": "General",
+          "effect": "Maltodextrin may alter gut microbiome"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "modified_starch",
+      "name": "Modified starch",
+      "aliases": [],
+      "category": "Thickener / Stabilizer",
+      "riskLevel": "Moderate",
+      "description": "Modified starch is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Modified starch may cause digestive issues"
+        },
+        {
+          "type": "General",
+          "effect": "Modified starch may cause blood sugar spikes"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "potato_starch",
+      "name": "Potato starch",
+      "aliases": [],
+      "category": "Thickener / Stabilizer",
+      "riskLevel": "Moderate",
+      "description": "Potato starch is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Potato starch may cause blood sugar spikes"
+        },
+        {
+          "type": "General",
+          "effect": "Potato starch may cause digestive discomfort in large amounts"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "corn_starch",
+      "name": "Corn starch",
+      "aliases": [],
+      "category": "Thickener / Stabilizer",
+      "riskLevel": "Low",
+      "description": "Corn starch is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Corn starch may spike blood sugar levels"
+        },
+        {
+          "type": "General",
+          "effect": "Corn starch may cause potential metabolic issues"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "rice_flour",
+      "name": "Rice flour",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Rice flour is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Rice flour may raise blood sugar"
+        },
+        {
+          "type": "General",
+          "effect": "Rice flour may cause potential arsenic exposure depending on source"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "barley_malt_extract",
+      "name": "Barley malt extract",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Barley malt extract is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Barley malt extract may affect blood sugar"
+        },
+        {
+          "type": "General",
+          "effect": "Barley malt extract may be a potential allergen for gluten-sensitive people"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "tapioca_starch",
+      "name": "Tapioca starch",
+      "aliases": [],
+      "category": "Thickener / Stabilizer",
+      "riskLevel": "Low",
+      "description": "Tapioca starch is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Tapioca starch may spike blood sugar"
+        },
+        {
+          "type": "General",
+          "effect": "Tapioca starch has low nutrient content"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "yeast_extract",
+      "name": "Yeast extract",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Yeast extract is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Yeast extract is high in sodium"
+        },
+        {
+          "type": "General",
+          "effect": "Yeast extract may affect blood pressure"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "baking_powder",
+      "name": "Baking powder",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Baking powder is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Baking powder contributes to high sodium intake"
+        },
+        {
+          "type": "General",
+          "effect": "Baking powder may cause digestive discomfort in excess"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "calcium_carbonate",
+      "name": "Calcium carbonate",
+      "aliases": [],
+      "category": "Salt / Mineral Additive",
+      "riskLevel": "Moderate",
+      "description": "Calcium carbonate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Calcium carbonate excess can cause kidney stones"
+        },
+        {
+          "type": "General",
+          "effect": "Calcium carbonate may cause digestive issues in high doses"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "calcium_phosphate",
+      "name": "Calcium phosphate",
+      "aliases": [],
+      "category": "Salt / Mineral Additive",
+      "riskLevel": "Moderate",
+      "description": "Calcium phosphate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Calcium phosphate excess can cause kidney stones"
+        },
+        {
+          "type": "General",
+          "effect": "Calcium phosphate may cause digestive issues"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "magnesium_stearate",
+      "name": "Magnesium stearate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Magnesium stearate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Magnesium stearate may cause digestive issues"
+        },
+        {
+          "type": "General",
+          "effect": "Magnesium stearate may cause possible immune response"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "silicon_dioxide",
+      "name": "Silicon dioxide",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Silicon dioxide is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Silicon dioxide may cause potential lung issues if inhaled in powder form"
+        },
+        {
+          "type": "General",
+          "effect": "Silicon dioxide may cause digestive concerns in large amounts"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sodium_citrate",
+      "name": "Sodium citrate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Sodium citrate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sodium citrate high intake may affect kidney function"
+        },
+        {
+          "type": "General",
+          "effect": "Sodium citrate may cause electrolyte imbalance in large amounts"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "citric_acid",
+      "name": "Citric acid",
+      "aliases": [],
+      "category": "Acidity Regulator",
+      "riskLevel": "Moderate",
+      "description": "Citric acid is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Citric acid can cause digestive irritation in sensitive individuals"
+        },
+        {
+          "type": "General",
+          "effect": "Citric acid may cause dental erosion in large amounts"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "ascorbic_acid",
+      "name": "Ascorbic acid",
+      "aliases": [],
+      "category": "Acidity Regulator",
+      "riskLevel": "Low",
+      "description": "Ascorbic acid is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Ascorbic acid is generally safe"
+        },
+        {
+          "type": "General",
+          "effect": "Ascorbic acid excess may cause kidney stones"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "lactic_acid",
+      "name": "Lactic acid",
+      "aliases": [],
+      "category": "Acidity Regulator",
+      "riskLevel": "Moderate",
+      "description": "Lactic acid is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Lactic acid may cause digestive discomfort in sensitive people"
+        },
+        {
+          "type": "General",
+          "effect": "Lactic acid excess intake can affect electrolytes"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "malic_acid",
+      "name": "Malic acid",
+      "aliases": [],
+      "category": "Acidity Regulator",
+      "riskLevel": "Low",
+      "description": "Malic acid is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Malic acid may irritate stomach lining in sensitive individuals"
+        },
+        {
+          "type": "General",
+          "effect": "Malic acid may cause dental erosion"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "tartaric_acid",
+      "name": "Tartaric acid",
+      "aliases": [],
+      "category": "Acidity Regulator",
+      "riskLevel": "Moderate",
+      "description": "Tartaric acid is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Tartaric acid may cause potential digestive issues"
+        },
+        {
+          "type": "General",
+          "effect": "Tartaric acid excess may cause electrolyte imbalance"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "acetic_acid",
+      "name": "Acetic acid",
+      "aliases": [],
+      "category": "Acidity Regulator",
+      "riskLevel": "Moderate",
+      "description": "Acetic acid is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Acetic acid can irritate digestive system"
+        },
+        {
+          "type": "General",
+          "effect": "Acetic acid may cause dental erosion with excessive intake"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "fumaric_acid",
+      "name": "Fumaric acid",
+      "aliases": [],
+      "category": "Acidity Regulator",
+      "riskLevel": "Moderate",
+      "description": "Fumaric acid is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Fumaric acid may cause digestive issues"
+        },
+        {
+          "type": "General",
+          "effect": "Fumaric acid may cause potential kidney irritation"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "succinic_acid",
+      "name": "Succinic acid",
+      "aliases": [],
+      "category": "Acidity Regulator",
+      "riskLevel": "Moderate",
+      "description": "Succinic acid is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Succinic acid may cause digestive discomfort in high amounts"
+        },
+        {
+          "type": "General",
+          "effect": "Succinic acid may cause potential metabolic effect"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "glutamic_acid",
+      "name": "Glutamic acid",
+      "aliases": [],
+      "category": "Acidity Regulator",
+      "riskLevel": "High",
+      "description": "Glutamic acid is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Glutamic acid may cause neurotoxic effects in excess"
+        },
+        {
+          "type": "General",
+          "effect": "Glutamic acid may cause headaches or sensitivity reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "glycolic_acid",
+      "name": "Glycolic acid",
+      "aliases": [],
+      "category": "Acidity Regulator",
+      "riskLevel": "Moderate",
+      "description": "Glycolic acid is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Glycolic acid may cause skin irritation in topical use"
+        },
+        {
+          "type": "General",
+          "effect": "Glycolic acid may cause digestive issues if ingested in large amounts"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "erythrosine",
+      "name": "Erythrosine",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Erythrosine is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Erythrosine may cause thyroid tumors in animals"
+        },
+        {
+          "type": "General",
+          "effect": "Erythrosine may be a potential carcinogen"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "red_3",
+      "name": "Red 3",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "High",
+      "description": "Red 3 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Red 3 may cause thyroid tumors in animals"
+        },
+        {
+          "type": "General",
+          "effect": "Red 3 may be a potential carcinogen"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "carmoisine",
+      "name": "Carmoisine",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Carmoisine is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Carmoisine may cause allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Carmoisine may cause hyperactivity in children"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "red_2",
+      "name": "Red 2",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Moderate",
+      "description": "Red 2 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Red 2 may cause allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Red 2 is linked to hyperactivity in children"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "brilliant_black_bn",
+      "name": "Brilliant black bn",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Brilliant black bn is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Brilliant black BN may cause allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Brilliant black BN may have potential behavioral effects"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "indigotine",
+      "name": "Indigotine",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Indigotine is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Indigotine may cause allergic reactions in sensitive individuals"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "blue_2",
+      "name": "Blue 2",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Moderate",
+      "description": "Blue 2 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Blue 2 may cause allergic reactions in sensitive individuals"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "fast_green_fcf",
+      "name": "Fast green fcf",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Fast green fcf is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Fast green FCF has shown potential cancer risk in animals"
+        },
+        {
+          "type": "General",
+          "effect": "Fast green FCF may cause allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "quinoline_yellow",
+      "name": "Quinoline yellow",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Moderate",
+      "description": "Quinoline yellow is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Quinoline yellow is linked to hyperactivity in children"
+        },
+        {
+          "type": "General",
+          "effect": "Quinoline yellow may cause potential allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "ponceau_4r",
+      "name": "Ponceau 4r",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Ponceau 4r is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Ponceau 4R is linked to hyperactivity in children"
+        },
+        {
+          "type": "General",
+          "effect": "Ponceau 4R may cause potential allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sunset_yellow_fcf",
+      "name": "Sunset yellow fcf",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Moderate",
+      "description": "Sunset yellow fcf is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sunset yellow FCF is linked to hyperactivity in children"
+        },
+        {
+          "type": "General",
+          "effect": "Sunset yellow FCF may cause allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "fast_yellow_ab",
+      "name": "Fast yellow ab",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Moderate",
+      "description": "Fast yellow ab is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Fast yellow AB may cause potential allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Fast yellow AB may cause behavioral concerns"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "carminic_acid",
+      "name": "Carminic acid",
+      "aliases": [],
+      "category": "Acidity Regulator",
+      "riskLevel": "Moderate",
+      "description": "Carminic acid is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Carminic acid may cause allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Carminic acid may lead to potential skin irritation"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "annatto",
+      "name": "Annatto",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Annatto is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Annatto may cause allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Annatto is linked to hyperactivity in children"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "cochineal",
+      "name": "Cochineal",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Cochineal is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Cochineal may cause allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Cochineal may cause potential digestive issues"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "butter_yellow",
+      "name": "Butter yellow",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "High",
+      "description": "Butter yellow is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Butter yellow is carcinogenic in animals"
+        },
+        {
+          "type": "General",
+          "effect": "Butter yellow is banned in many countries"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "methyl_yellow",
+      "name": "Methyl yellow",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "High",
+      "description": "Methyl yellow is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Methyl yellow is carcinogenic in animals"
+        },
+        {
+          "type": "General",
+          "effect": "Methyl yellow may pose a potential human risk"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "ammonium_sulfate",
+      "name": "Ammonium sulfate",
+      "aliases": [],
+      "category": "Fats and Oils",
+      "riskLevel": "Low",
+      "description": "Ammonium sulfate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Ammonium sulfate may irritate skin and eyes"
+        },
+        {
+          "type": "General",
+          "effect": "Ammonium sulfate may cause potential respiratory issues"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "arsenate",
+      "name": "Arsenate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Arsenate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Arsenate is toxic and carcinogenic"
+        },
+        {
+          "type": "General",
+          "effect": "Arsenate is linked to skin and lung cancer"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "barium_sulfate",
+      "name": "Barium sulfate",
+      "aliases": [],
+      "category": "Fats and Oils",
+      "riskLevel": "Low",
+      "description": "Barium sulfate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Barium sulfate in high exposure can cause kidney and heart problems"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "benzoic_acid",
+      "name": "Benzoic acid",
+      "aliases": [],
+      "category": "Acidity Regulator",
+      "riskLevel": "Moderate",
+      "description": "Benzoic acid is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Benzoic acid can cause allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Benzoic acid may form benzene in combination with vitamin C"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "benzyl_alcohol",
+      "name": "Benzyl alcohol",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Benzyl alcohol is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Benzyl alcohol can cause respiratory and skin irritation"
+        },
+        {
+          "type": "General",
+          "effect": "Benzyl alcohol is toxic in large doses"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "bixin",
+      "name": "Bixin",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Bixin is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Bixin may trigger allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Bixin may cause potential digestive discomfort"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "calcium_disodium_edta",
+      "name": "Calcium disodium edta",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Calcium disodium edta is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Calcium disodium EDTA may interfere with mineral absorption"
+        },
+        {
+          "type": "General",
+          "effect": "Calcium disodium EDTA may cause potential kidney stress"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "calcium_propionate",
+      "name": "Calcium propionate",
+      "aliases": [],
+      "category": "Preservative",
+      "riskLevel": "Moderate",
+      "description": "Calcium propionate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Calcium propionate is linked to irritability in children"
+        },
+        {
+          "type": "General",
+          "effect": "Calcium propionate may cause digestive issues"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "caffeine",
+      "name": "Caffeine",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Caffeine is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Caffeine may cause insomnia and anxiety"
+        },
+        {
+          "type": "General",
+          "effect": "Caffeine in high doses can cause heart palpitations"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "copper_sulfate",
+      "name": "Copper sulfate",
+      "aliases": [],
+      "category": "Fats and Oils",
+      "riskLevel": "High",
+      "description": "Copper sulfate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Copper sulfate is toxic in high doses"
+        },
+        {
+          "type": "General",
+          "effect": "Copper sulfate can cause liver and kidney damage"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "dimethylpolysiloxane",
+      "name": "Dimethylpolysiloxane",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Dimethylpolysiloxane is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Dimethylpolysiloxane is generally considered safe"
+        },
+        {
+          "type": "General",
+          "effect": "Dimethylpolysiloxane may cause potential digestive discomfort in large amounts"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "edible_wax",
+      "name": "Edible wax",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Edible wax is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Edible wax may cause digestive issues if consumed in excess"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "ethylparaben",
+      "name": "Ethylparaben",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Ethylparaben is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Ethylparaben may cause hormonal disruption"
+        },
+        {
+          "type": "General",
+          "effect": "Ethylparaben may have potential reproductive effects"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "formaldehyde",
+      "name": "Formaldehyde",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Formaldehyde is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Formaldehyde is carcinogenic"
+        },
+        {
+          "type": "General",
+          "effect": "Formaldehyde may cause respiratory and skin irritation"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "glycerol_monooleate",
+      "name": "Glycerol monooleate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Glycerol monooleate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Glycerol monooleate may cause digestive discomfort in some individuals"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "hexane-extracted_oils",
+      "name": "Hexane-extracted oils",
+      "aliases": [],
+      "category": "Fats and Oils",
+      "riskLevel": "Low",
+      "description": "Hexane-extracted oils is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Hexane-extracted oils may contain potential chemical residues"
+        },
+        {
+          "type": "General",
+          "effect": "Hexane-extracted oils may impact liver and kidney health"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "isononyl_alcohol",
+      "name": "Isononyl alcohol",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Isononyl alcohol is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Isononyl alcohol may cause potential liver toxicity"
+        },
+        {
+          "type": "General",
+          "effect": "Isononyl alcohol may irritate skin or eyes"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "lecithin",
+      "name": "Lecithin",
+      "aliases": [],
+      "category": "Emulsifier",
+      "riskLevel": "Moderate",
+      "description": "Lecithin is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Lecithin (non-soy) may act as a potential allergen"
+        },
+        {
+          "type": "General",
+          "effect": "Lecithin (non-soy) may cause digestive discomfort in large amounts"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "lysozyme",
+      "name": "Lysozyme",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Lysozyme is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Lysozyme may cause allergic reactions in sensitive individuals"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "magnesium_carbonate",
+      "name": "Magnesium carbonate",
+      "aliases": [],
+      "category": "Salt / Mineral Additive",
+      "riskLevel": "Moderate",
+      "description": "Magnesium carbonate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Magnesium carbonate in excess can cause digestive issues"
+        },
+        {
+          "type": "General",
+          "effect": "Magnesium carbonate may cause potential electrolyte imbalance"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "maltol",
+      "name": "Maltol",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Maltol is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Maltol may cause potential allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Maltol in high doses may be toxic"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "monopotassium_phosphate",
+      "name": "Monopotassium phosphate",
+      "aliases": [],
+      "category": "Salt / Mineral Additive",
+      "riskLevel": "Low",
+      "description": "Monopotassium phosphate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Monopotassium phosphate in excess can affect kidney function"
+        },
+        {
+          "type": "General",
+          "effect": "Monopotassium phosphate may cause electrolyte imbalance"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "methylcellulose",
+      "name": "Methylcellulose",
+      "aliases": [],
+      "category": "Thickener / Stabilizer",
+      "riskLevel": "Moderate",
+      "description": "Methylcellulose is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Methylcellulose may cause digestive discomfort"
+        },
+        {
+          "type": "General",
+          "effect": "Methylcellulose may have a possible laxative effect"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "monoammonium_phosphate",
+      "name": "Monoammonium phosphate",
+      "aliases": [],
+      "category": "Salt / Mineral Additive",
+      "riskLevel": "Low",
+      "description": "Monoammonium phosphate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Monoammonium phosphate in high intake may affect kidney and heart health"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "niacinamide",
+      "name": "Niacinamide",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Niacinamide is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Niacinamide in excess may cause liver damage"
+        },
+        {
+          "type": "General",
+          "effect": "Niacinamide may cause flushing and nausea"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "nitric_oxide_releasing_compounds",
+      "name": "Nitric oxide releasing compounds",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Nitric oxide releasing compounds is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Nitric oxide releasing compounds may cause potential oxidative stress"
+        },
+        {
+          "type": "General",
+          "effect": "Nitric oxide releasing compounds may affect cardiovascular health"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "octyl_gallate",
+      "name": "Octyl gallate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Octyl gallate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Octyl gallate may cause potential endocrine disruption"
+        },
+        {
+          "type": "General",
+          "effect": "Octyl gallate may cause skin irritation"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "ozone-treated_flour",
+      "name": "Ozone-treated flour",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Ozone-treated flour is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Ozone-treated flour may reduce nutrient content"
+        },
+        {
+          "type": "General",
+          "effect": "Ozone-treated flour may cause potential oxidative effects"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "para-toluenesulfonamide",
+      "name": "Para-toluenesulfonamide",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Para-toluenesulfonamide is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Para-toluenesulfonamide may cause possible liver toxicity"
+        },
+        {
+          "type": "General",
+          "effect": "Para-toluenesulfonamide may cause skin and eye irritation"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "phosphoric_acid",
+      "name": "Phosphoric acid",
+      "aliases": [],
+      "category": "Acidity Regulator",
+      "riskLevel": "Low",
+      "description": "Phosphoric acid is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Phosphoric acid can weaken bones"
+        },
+        {
+          "type": "General",
+          "effect": "Phosphoric acid is linked to kidney disease in high intake"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "polydimethylsiloxane",
+      "name": "Polydimethylsiloxane",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Polydimethylsiloxane is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Polydimethylsiloxane may cause digestive discomfort"
+        },
+        {
+          "type": "General",
+          "effect": "Polydimethylsiloxane may have potential for chemical residues"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "polyethylene_glycol",
+      "name": "Polyethylene glycol",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Polyethylene glycol is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Polyethylene glycol may cause digestive issues in high doses"
+        },
+        {
+          "type": "General",
+          "effect": "Polyethylene glycol may cause allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "potassium_chloride",
+      "name": "Potassium chloride",
+      "aliases": [],
+      "category": "Salt / Mineral Additive",
+      "riskLevel": "Low",
+      "description": "Potassium chloride is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Potassium chloride in excess can cause heart arrhythmias"
+        },
+        {
+          "type": "General",
+          "effect": "Potassium chloride may cause kidney stress"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "potassium_phosphate",
+      "name": "Potassium phosphate",
+      "aliases": [],
+      "category": "Salt / Mineral Additive",
+      "riskLevel": "Low",
+      "description": "Potassium phosphate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Potassium phosphate may affect kidney function in high amounts"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "propionic_acid",
+      "name": "Propionic acid",
+      "aliases": [],
+      "category": "Acidity Regulator",
+      "riskLevel": "Moderate",
+      "description": "Propionic acid is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Propionic acid may cause irritability and digestive issues"
+        },
+        {
+          "type": "General",
+          "effect": "Propionic acid may cause potential allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "propylene_glycol_alginate",
+      "name": "Propylene glycol alginate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Propylene glycol alginate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Propylene glycol alginate may cause digestive discomfort in sensitive individuals"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "saccharin_sodium",
+      "name": "Saccharin sodium",
+      "aliases": [],
+      "category": "Artificial Sweetener",
+      "riskLevel": "High",
+      "description": "Saccharin sodium is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Saccharin sodium may have potential bladder cancer risk in animal studies"
+        },
+        {
+          "type": "General",
+          "effect": "Saccharin sodium may cause allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sodium_aluminium_phosphate",
+      "name": "Sodium aluminium phosphate",
+      "aliases": [],
+      "category": "Salt / Mineral Additive",
+      "riskLevel": "High",
+      "description": "Sodium aluminium phosphate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sodium aluminium phosphate is linked to neurotoxicity"
+        },
+        {
+          "type": "General",
+          "effect": "Sodium aluminium phosphate may pose potential Alzheimer’s risk"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sodium_borate",
+      "name": "Sodium borate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Sodium borate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sodium borate is toxic in high doses"
+        },
+        {
+          "type": "General",
+          "effect": "Sodium borate may affect fertility"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sodium_erythorbate",
+      "name": "Sodium erythorbate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Sodium erythorbate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sodium erythorbate may form nitrosamines in certain conditions"
+        },
+        {
+          "type": "General",
+          "effect": "Sodium erythorbate may cause potential oxidative stress"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sodium_hydrosulfite",
+      "name": "Sodium hydrosulfite",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Sodium hydrosulfite is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sodium hydrosulfite may cause potential skin and respiratory irritation"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sodium_hypophosphite",
+      "name": "Sodium hypophosphite",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Sodium hypophosphite is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sodium hypophosphite in excess intake may affect kidneys"
+        },
+        {
+          "type": "General",
+          "effect": "Sodium hypophosphite may cause digestive discomfort"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sodium_lauryl_sulfate",
+      "name": "Sodium lauryl sulfate",
+      "aliases": [],
+      "category": "Fats and Oils",
+      "riskLevel": "High",
+      "description": "Sodium lauryl sulfate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sodium lauryl sulfate may cause skin and digestive irritation"
+        },
+        {
+          "type": "General",
+          "effect": "Sodium lauryl sulfate may cause potential toxicity if ingested in large amounts"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sodium_molybdate",
+      "name": "Sodium molybdate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Sodium molybdate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sodium molybdate is toxic in high amounts"
+        },
+        {
+          "type": "General",
+          "effect": "Sodium molybdate may cause kidney and liver issues"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sodium_silicate",
+      "name": "Sodium silicate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Sodium silicate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sodium silicate may cause digestive irritation"
+        },
+        {
+          "type": "General",
+          "effect": "Sodium silicate may cause potential lung issues if inhaled"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sodium_sulfite",
+      "name": "Sodium sulfite",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Sodium sulfite is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sodium sulfite may cause allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Sodium sulfite may trigger asthma"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sodium_thiosulfate",
+      "name": "Sodium thiosulfate",
+      "aliases": [],
+      "category": "Fats and Oils",
+      "riskLevel": "Moderate",
+      "description": "Sodium thiosulfate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sodium thiosulfate may cause digestive discomfort in large doses"
+        },
+        {
+          "type": "General",
+          "effect": "Sodium thiosulfate may have potential metabolic effects"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sorbitan_esters",
+      "name": "Sorbitan esters",
+      "aliases": [],
+      "category": "Emulsifier",
+      "riskLevel": "Moderate",
+      "description": "Sorbitan esters is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sorbitan esters may cause digestive discomfort"
+        },
+        {
+          "type": "General",
+          "effect": "Sorbitan esters may act as a potential allergen"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sucrose_acetate_isobutyrate",
+      "name": "Sucrose acetate isobutyrate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Sucrose acetate isobutyrate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sucrose acetate isobutyrate may cause digestive issues"
+        },
+        {
+          "type": "General",
+          "effect": "Sucrose acetate isobutyrate may have potential metabolic effects"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sucralose_acesulfame",
+      "name": "Sucralose acesulfame",
+      "aliases": [],
+      "category": "Artificial Sweetener",
+      "riskLevel": "Low",
+      "description": "Sucralose acesulfame is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sucralose acesulfame may alter gut microbiota"
+        },
+        {
+          "type": "General",
+          "effect": "Sucralose acesulfame may cause potential glucose intolerance"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "t-butylhydroquinone_(tbhq)",
+      "name": "T-butylhydroquinone (tbhq)",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "T-butylhydroquinone (tbhq) is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "T-butylhydroquinone (TBHQ) may cause nausea and vomiting"
+        },
+        {
+          "type": "General",
+          "effect": "T-butylhydroquinone (TBHQ) may pose potential cancer risk in high doses"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "triacetin",
+      "name": "Triacetin",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Triacetin is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Triacetin may cause digestive discomfort"
+        },
+        {
+          "type": "General",
+          "effect": "Triacetin may cause potential liver toxicity"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "triethanolamine",
+      "name": "Triethanolamine",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Triethanolamine is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Triethanolamine may cause skin irritation"
+        },
+        {
+          "type": "General",
+          "effect": "Triethanolamine may have potential liver and kidney effects in high doses"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "tricalcium_phosphate",
+      "name": "Tricalcium phosphate",
+      "aliases": [],
+      "category": "Salt / Mineral Additive",
+      "riskLevel": "Moderate",
+      "description": "Tricalcium phosphate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Tricalcium phosphate in excess intake may affect kidney function"
+        },
+        {
+          "type": "General",
+          "effect": "Tricalcium phosphate may cause digestive issues"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "turmeric_oleoresin_(synthetic)",
+      "name": "Turmeric oleoresin (synthetic)",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Turmeric oleoresin (synthetic) is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Turmeric oleoresin (synthetic) may cause potential liver toxicity"
+        },
+        {
+          "type": "General",
+          "effect": "Turmeric oleoresin (synthetic) may cause allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "vanillin_(synthetic)",
+      "name": "Vanillin (synthetic)",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Vanillin (synthetic) is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Vanillin (synthetic) may be a potential allergen"
+        },
+        {
+          "type": "General",
+          "effect": "Vanillin (synthetic) may cause headaches in sensitive individuals"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "xylitol",
+      "name": "Xylitol",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Xylitol is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Xylitol may cause digestive discomfort in high amounts"
+        },
+        {
+          "type": "General",
+          "effect": "Xylitol is toxic to dogs"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "yellow_6_lake",
+      "name": "Yellow 6 lake",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Moderate",
+      "description": "Yellow 6 lake is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Yellow 6 lake may cause hyperactivity in children"
+        },
+        {
+          "type": "General",
+          "effect": "Yellow 6 lake may cause allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "zinc_oxide",
+      "name": "Zinc oxide",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Zinc oxide is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Zinc oxide in high doses can be toxic"
+        },
+        {
+          "type": "General",
+          "effect": "Zinc oxide may cause digestive issues"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "caffeine_anhydrous",
+      "name": "Caffeine anhydrous",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Caffeine anhydrous is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Caffeine anhydrous may cause insomnia, anxiety, and heart palpitations"
+        },
+        {
+          "type": "General",
+          "effect": "Caffeine anhydrous may lead to potential dependency"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "cocoa_solids_(alkalized)",
+      "name": "Cocoa solids (alkalized)",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Cocoa solids (alkalized) is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Cocoa solids (alkalized) may contain higher levels of heavy metals"
+        },
+        {
+          "type": "General",
+          "effect": "Cocoa solids (alkalized) may cause potential oxidative stress"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sulfur_dioxide",
+      "name": "Sulfur dioxide",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Sulfur dioxide is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Sulfur dioxide may trigger asthma"
+        },
+        {
+          "type": "General",
+          "effect": "Sulfur dioxide may cause digestive discomfort in sensitive individuals"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "methyl_paraben",
+      "name": "Methyl paraben",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Methyl paraben is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Methyl paraben may cause hormonal disruption"
+        },
+        {
+          "type": "General",
+          "effect": "Methyl paraben may have potential reproductive toxicity"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "ethyl_cellulose",
+      "name": "Ethyl cellulose",
+      "aliases": [],
+      "category": "Thickener / Stabilizer",
+      "riskLevel": "Moderate",
+      "description": "Ethyl cellulose is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Ethyl cellulose may cause digestive issues in large amounts"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "acetylated_monoglycerides",
+      "name": "Acetylated monoglycerides",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Acetylated monoglycerides is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Acetylated monoglycerides may cause digestive discomfort"
+        },
+        {
+          "type": "General",
+          "effect": "Acetylated monoglycerides may have potential metabolic effects"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "lecithin_(soy)",
+      "name": "Lecithin (soy)",
+      "aliases": [],
+      "category": "Emulsifier",
+      "riskLevel": "Moderate",
+      "description": "Lecithin (soy) is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Lecithin (soy) may cause allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Lecithin (soy) may cause digestive discomfort in sensitive people"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "phosphates_(food_grade)",
+      "name": "Phosphates (food grade)",
+      "aliases": [],
+      "category": "Salt / Mineral Additive",
+      "riskLevel": "Low",
+      "description": "Phosphates (food grade) is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Phosphates (food grade) in excess intake may be linked to kidney and heart problems"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "brominated_vegetable_oil",
+      "name": "Brominated vegetable oil",
+      "aliases": [],
+      "category": "Fats and Oils",
+      "riskLevel": "Low",
+      "description": "Brominated vegetable oil is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Brominated vegetable oil is linked to hormone disruption"
+        },
+        {
+          "type": "General",
+          "effect": "Brominated vegetable oil may accumulate in body fat"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "hydroxypropyl_methylcellulose",
+      "name": "Hydroxypropyl methylcellulose",
+      "aliases": [],
+      "category": "Thickener / Stabilizer",
+      "riskLevel": "Moderate",
+      "description": "Hydroxypropyl methylcellulose is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Hydroxypropyl methylcellulose may cause digestive issues"
+        },
+        {
+          "type": "General",
+          "effect": "Hydroxypropyl methylcellulose may have potential laxative effect"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "tert-butylhydroquinone_(tbhq)",
+      "name": "Tert-butylhydroquinone (tbhq)",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Tert-butylhydroquinone (tbhq) is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Tert-butylhydroquinone (TBHQ) may cause nausea and vomiting"
+        },
+        {
+          "type": "General",
+          "effect": "Tert-butylhydroquinone (TBHQ) may pose potential cancer risk in high doses"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "bromate",
+      "name": "Bromate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Bromate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Bromate is carcinogenic in animals"
+        },
+        {
+          "type": "General",
+          "effect": "Bromate is linked to kidney and thyroid cancer"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "chlorine_dioxide",
+      "name": "Chlorine dioxide",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Chlorine dioxide is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Chlorine dioxide is irritating to eyes, skin, and respiratory tract"
+        },
+        {
+          "type": "General",
+          "effect": "Chlorine dioxide is toxic if ingested in high doses"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "red_3",
+      "name": "Red 3",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Low",
+      "description": "Red 3 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Red 3 is linked to thyroid tumors in animal studies"
+        },
+        {
+          "type": "General",
+          "effect": "Red 3 may cause hyperactivity in children"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "red_2",
+      "name": "Red 2",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "High",
+      "description": "Red 2 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Red 2 may be a potential carcinogen in animals"
+        },
+        {
+          "type": "General",
+          "effect": "Red 2 may trigger hyperactivity and allergies"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "indigo_carmine",
+      "name": "Indigo carmine",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Indigo carmine is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Indigo carmine may cause allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Indigo carmine may cause potential kidney toxicity"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "allura_red_ac",
+      "name": "Allura red ac",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Moderate",
+      "description": "Allura red ac is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Allura red AC may cause hyperactivity in children"
+        },
+        {
+          "type": "General",
+          "effect": "Allura red AC may cause potential allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "tartrazine",
+      "name": "Tartrazine",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Tartrazine is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Tartrazine is linked to hyperactivity in children"
+        },
+        {
+          "type": "General",
+          "effect": "Tartrazine may trigger allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "yellow_5",
+      "name": "Yellow 5",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Moderate",
+      "description": "Yellow 5 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Yellow 5 is linked to hyperactivity in children"
+        },
+        {
+          "type": "General",
+          "effect": "Yellow 5 may trigger allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "yellow_6",
+      "name": "Yellow 6",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Low",
+      "description": "Yellow 6 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Yellow 6 may cause hyperactivity in children"
+        },
+        {
+          "type": "General",
+          "effect": "Yellow 6 may cause skin and respiratory allergies"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "brilliant_blue_fcf",
+      "name": "Brilliant blue fcf",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Moderate",
+      "description": "Brilliant blue fcf is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Brilliant blue FCF may cause potential hyperactivity in children"
+        },
+        {
+          "type": "General",
+          "effect": "Brilliant blue FCF may cause allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "blue_1",
+      "name": "Blue 1",
+      "aliases": [],
+      "category": "Color Additive",
+      "riskLevel": "Moderate",
+      "description": "Blue 1 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Blue 1 may cause potential hyperactivity in children"
+        },
+        {
+          "type": "General",
+          "effect": "Blue 1 may cause allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "fast_scarlet",
+      "name": "Fast scarlet",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Fast scarlet is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Fast scarlet may cause potential mutagenic effects"
+        },
+        {
+          "type": "General",
+          "effect": "Fast scarlet may cause allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "neotame",
+      "name": "Neotame",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Neotame is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Neotame may cause digestive discomfort"
+        },
+        {
+          "type": "General",
+          "effect": "Neotame may affect neurological function in rare cases"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "acesulfame_potassium",
+      "name": "Acesulfame potassium",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Acesulfame potassium is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Acesulfame potassium may alter gut microbiota"
+        },
+        {
+          "type": "General",
+          "effect": "Acesulfame potassium may cause potential headaches or migraines"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "cyclamate",
+      "name": "Cyclamate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Cyclamate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Cyclamate is banned in some countries due to carcinogenicity concerns"
+        },
+        {
+          "type": "General",
+          "effect": "Cyclamate may alter gut bacteria"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "diacetyl",
+      "name": "Diacetyl",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Diacetyl is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Diacetyl is linked to lung disease"
+        },
+        {
+          "type": "General",
+          "effect": "Diacetyl may cause respiratory irritation"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "ada",
+      "name": "Ada",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Ada is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "ADA may cause respiratory issues"
+        },
+        {
+          "type": "General",
+          "effect": "ADA is linked to asthma"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "hydrogenated_soybean_oil",
+      "name": "Hydrogenated soybean oil",
+      "aliases": [],
+      "category": "Fats and Oils",
+      "riskLevel": "Low",
+      "description": "Hydrogenated soybean oil is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Hydrogenated soybean oil contains trans fats"
+        },
+        {
+          "type": "General",
+          "effect": "Hydrogenated soybean oil may increase cholesterol and heart disease risk"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "partially_hydrogenated_oils",
+      "name": "Partially hydrogenated oils",
+      "aliases": [],
+      "category": "Fats and Oils",
+      "riskLevel": "Low",
+      "description": "Partially hydrogenated oils is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Partially hydrogenated oils are linked to cardiovascular disease"
+        },
+        {
+          "type": "General",
+          "effect": "Partially hydrogenated oils may raise LDL cholesterol"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "pyridoxine_hydrochloride",
+      "name": "Pyridoxine hydrochloride",
+      "aliases": [],
+      "category": "Salt / Mineral Additive",
+      "riskLevel": "Low",
+      "description": "Pyridoxine hydrochloride is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Pyridoxine hydrochloride in excess can cause nerve damage"
+        },
+        {
+          "type": "General",
+          "effect": "Pyridoxine hydrochloride may lead to numbness or tingling"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "gellan_gum",
+      "name": "Gellan gum",
+      "aliases": [],
+      "category": "Thickener / Stabilizer",
+      "riskLevel": "Moderate",
+      "description": "Gellan gum is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "May cause bloating or digestive discomfort"
+        },
+        {
+          "type": "General",
+          "effect": "Potential laxative effects"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sodium_stearoyl_lactylate",
+      "name": "Sodium stearoyl lactylate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Sodium stearoyl lactylate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Possible digestive issues in sensitive individuals"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "calcium_stearoyl_lactylate",
+      "name": "Calcium stearoyl lactylate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Calcium stearoyl lactylate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "May cause mild digestive discomfort"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "propylene_glycol_mono-_and_diesters",
+      "name": "Propylene glycol mono- and diesters",
+      "aliases": [],
+      "category": "Emulsifier",
+      "riskLevel": "Moderate",
+      "description": "Propylene glycol mono- and diesters is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Digestive discomfort"
+        },
+        {
+          "type": "General",
+          "effect": "Potential allergen"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "polysorbate_20",
+      "name": "Polysorbate 20",
+      "aliases": [],
+      "category": "Preservative",
+      "riskLevel": "Moderate",
+      "description": "Polysorbate 20 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "May affect gut microbiota"
+        },
+        {
+          "type": "General",
+          "effect": "Digestive discomfort"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "polysorbate_60",
+      "name": "Polysorbate 60",
+      "aliases": [],
+      "category": "Preservative",
+      "riskLevel": "Moderate",
+      "description": "Polysorbate 60 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Digestive irritation"
+        },
+        {
+          "type": "General",
+          "effect": "Potential allergen"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "polysorbate_65",
+      "name": "Polysorbate 65",
+      "aliases": [],
+      "category": "Preservative",
+      "riskLevel": "Moderate",
+      "description": "Polysorbate 65 is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Digestive discomfort in sensitive individuals"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "mono-_and_diglycerides",
+      "name": "Mono- and diglycerides",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Mono- and diglycerides is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "May contain trans fats"
+        },
+        {
+          "type": "General",
+          "effect": "Potential heart health impact"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "soy_protein_isolate",
+      "name": "Soy protein isolate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Soy protein isolate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Potential allergen"
+        },
+        {
+          "type": "General",
+          "effect": "Digestive discomfort in sensitive people"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "wheat_gluten",
+      "name": "Wheat gluten",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Wheat gluten is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "May trigger celiac disease or gluten sensitivity"
+        },
+        {
+          "type": "General",
+          "effect": "Digestive issues"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "corn_syrup_solids",
+      "name": "Corn syrup solids",
+      "aliases": [],
+      "category": "Artificial Sweetener",
+      "riskLevel": "Low",
+      "description": "Corn syrup solids is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "High sugar content"
+        },
+        {
+          "type": "General",
+          "effect": "May contribute to obesity and diabetes"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "glucose_syrup",
+      "name": "Glucose syrup",
+      "aliases": [],
+      "category": "Artificial Sweetener",
+      "riskLevel": "Low",
+      "description": "Glucose syrup is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "High sugar content"
+        },
+        {
+          "type": "General",
+          "effect": "May contribute to metabolic syndrome"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "mannitol",
+      "name": "Mannitol",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Mannitol is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Laxative effect"
+        },
+        {
+          "type": "General",
+          "effect": "May cause digestive discomfort"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "isomalt",
+      "name": "Isomalt",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Low",
+      "description": "Isomalt is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Low"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Approved",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "May cause gas and diarrhea in sensitive individuals"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "polydextrose",
+      "name": "Polydextrose",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Polydextrose is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Digestive discomfort in high doses"
+        },
+        {
+          "type": "General",
+          "effect": "May alter gut microbiota"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "lactitol",
+      "name": "Lactitol",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Lactitol is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "May cause digestive issues"
+        },
+        {
+          "type": "General",
+          "effect": "Potential laxative effect"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "lactulose",
+      "name": "Lactulose",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Lactulose is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Laxative effect"
+        },
+        {
+          "type": "General",
+          "effect": "Digestive discomfort in excess"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "xanthan_gum",
+      "name": "Xanthan gum",
+      "aliases": [],
+      "category": "Thickener / Stabilizer",
+      "riskLevel": "Moderate",
+      "description": "Xanthan gum is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Digestive issues in large amounts"
+        },
+        {
+          "type": "General",
+          "effect": "May cause gas and bloating"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "guar_gum",
+      "name": "Guar gum",
+      "aliases": [],
+      "category": "Thickener / Stabilizer",
+      "riskLevel": "Moderate",
+      "description": "Guar gum is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "May cause digestive discomfort"
+        },
+        {
+          "type": "General",
+          "effect": "Possible allergic reactions"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "locust_bean_gum",
+      "name": "Locust bean gum",
+      "aliases": [],
+      "category": "Thickener / Stabilizer",
+      "riskLevel": "Moderate",
+      "description": "Locust bean gum is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Digestive discomfort in sensitive individuals"
+        },
+        {
+          "type": "General",
+          "effect": "Potential laxative effect"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "hydroxypropyl_cellulose",
+      "name": "Hydroxypropyl cellulose",
+      "aliases": [],
+      "category": "Thickener / Stabilizer",
+      "riskLevel": "Moderate",
+      "description": "Hydroxypropyl cellulose is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Digestive issues in high doses"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "calcium_stearoyl-2-lactylate",
+      "name": "Calcium stearoyl-2-lactylate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Calcium stearoyl-2-lactylate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "May cause digestive discomfort"
+        },
+        {
+          "type": "General",
+          "effect": "Potential mild laxative effect"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "sodium_stearoyl-2-lactylate",
+      "name": "Sodium stearoyl-2-lactylate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Sodium stearoyl-2-lactylate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Digestive discomfort in sensitive individuals"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "tert-butylhydroquinone",
+      "name": "Tert-butylhydroquinone",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Tert-butylhydroquinone is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Potential nausea and vomiting"
+        },
+        {
+          "type": "General",
+          "effect": "May be carcinogenic in high doses"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "propyl_gallate",
+      "name": "Propyl gallate",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "Moderate",
+      "description": "Propyl gallate is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "Moderate"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Generally Recognized as Safe"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "May cause allergic reactions"
+        },
+        {
+          "type": "General",
+          "effect": "Potential endocrine disruption"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "propyl_paraben",
+      "name": "Propyl paraben",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Propyl paraben is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Hormonal disruption"
+        },
+        {
+          "type": "General",
+          "effect": "Potential reproductive toxicity"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "isobutyl_paraben",
+      "name": "Isobutyl paraben",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Isobutyl paraben is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Hormonal disruption"
+        },
+        {
+          "type": "General",
+          "effect": "Potential reproductive toxicity"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    },
+    {
+      "id": "ethyl_paraben",
+      "name": "Ethyl paraben",
+      "aliases": [],
+      "category": "Miscellaneous Additive",
+      "riskLevel": "High",
+      "description": "Ethyl paraben is a food additive that may have certain health risks when consumed in excess.",
+      "toxicity": {
+        "acute": "Low",
+        "chronic": "High"
+      },
+      "regulatoryStatus": {
+        "FDA": "Approved with limits",
+        "EU": "Restricted in some products",
+        "WHO": "Under Review"
+      },
+      "healthEffects": [
+        {
+          "type": "General",
+          "effect": "Hormonal disruption"
+        },
+        {
+          "type": "General",
+          "effect": "Potential reproductive toxicity"
+        }
+      ],
+      "references": [
+        "https://www.fda.gov/food/food-additives-petitions",
+        "https://www.who.int/foodsafety",
+        "https://pubchem.ncbi.nlm.nih.gov/"
+      ]
+    }
+  ]
+}

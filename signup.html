@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clarivana Signup</title>
+  <link rel="stylesheet" href="signup.css" />
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <div class="signup-container">
+    <div class="signup-card">
+      <div class="logo-section">
+        <div class="logo-circle">
+          <div class="logo-arrow"></div>
+        </div>
+        <h1 class="app-name">Clarivana</h1>
+      </div>
+
+      <form id="signup-form" class="signup-form">
+        <label>Full Name</label>
+        <input type="text" id="name" placeholder="Enter Name" required style="width:90%" />
+
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Enter E-mail ID" required style="width:90%" />
+
+        <label>Password</label>
+        <input type="password" id="password" placeholder="••••••••" required style="width:90%" />
+
+        <label>Confirm Password</label>
+        <input type="password" id="confirm-password" placeholder="••••••••" required style="width:90%" />
+
+        <label>Age</label>
+        <input type="number" id="age" placeholder="Age" required style="width:90%" />
+
+        <label>Gender</label>
+        <select id="gender" required >
+          <option value="" disabled selected>Select</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <label>Allergies (comma-separated)</label>
+        <input type="text" id="allergies" placeholder="Milk, Gluten, Peanuts" style="width:90%"/>
+
+        <button type="submit" class="signup-btn">Create Account</button>
+
+        <p class="login-text">
+          Already have an account? <a href="login.html">Log In</a>
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <script src="./firebase.js"></script>
+  <script>
+    const signupForm = document.getElementById('signup-form');
+
+    signupForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const password = document.getElementById('password').value.trim();
+      const confirmPassword = document.getElementById('confirm-password').value.trim();
+      const age = document.getElementById('age').value.trim();
+      const gender = document.getElementById('gender').value;
+      const allergies = document.getElementById('allergies').value.trim();
+
+      if (password !== confirmPassword) {
+        Swal.fire("Passwords don't match!", '', 'error');
+        return;
+      }
+
+      try {
+        const userCred = await auth.createUserWithEmailAndPassword(email, password);
+        const uid = userCred.user.uid;
+
+        await db.collection('users').doc(uid).set({
+          name,
+          email,
+          plan: 'free',            // default free plan
+          scanUsed: 0,
+          aiUsed: 0,
+          lastReset: firebase.firestore.FieldValue.serverTimestamp(),
+          age: age ? parseInt(age) : null,
+          gender,
+          allergies: allergies ? allergies.split(',').map(a => a.trim()).filter(a => a !== '') : []
+        });
+
+        Swal.fire("Account Created!", "Welcome to Clarivana, " + name + "!", "success").then(() => {
+          window.location.href = "login.html";
+        });
+      } catch (error) {
+        Swal.fire("Signup Failed", error.message, "error");
+      }
+    });
+  </script>
+</body>
+</html>
+

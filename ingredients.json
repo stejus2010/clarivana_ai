@@ -1,0 +1,1165 @@
+{
+  "harmfulIngredients": {
+    "aspartame": {
+      "diseases": [
+        "aspartame May cause headaches and allergic reactions in some individuals",
+        "Potential links to cancer in long-term studies"
+      ]
+    },
+    "sucralose": {
+      "diseases": [
+        "sucralose May alter gut bacteria and cause digestive issues",
+        "Potential metabolic effects"
+      ]
+    },
+    "saccharin": {
+      "diseases": [
+        "saccharin Linked to bladder cancer in animal studies",
+        "Generally safe for humans in moderation"
+      ]
+    },
+    "red 40": {
+      "diseases": [
+        "red 40 Associated with hyperactivity in children",
+        "Potential allergic reactions"
+      ]
+    },
+    "yellow 5": {
+      "diseases": [
+        "yellow 5 May cause allergic reactions",
+        "Linked to hyperactivity in sensitive children"
+      ]
+    },
+    "yellow 6": {
+      "diseases": [
+        "yellow 6 Potential allergic reactions",
+        "Possible behavioral effects"
+      ]
+    },
+    "blue 1": {
+      "diseases": [
+        "blue 1 May trigger allergies",
+        "Potential behavioral effects in children"
+      ]
+    },
+    "sodium benzoate": {
+      "diseases": [
+        "sodium benzoate Can form benzene when combined with vitamin C, a known carcinogen",
+        "Linked to hyperactivity in children"
+      ]
+    },
+    "potassium sorbate": {
+      "diseases": [
+        "potassium sorbate May cause skin irritation or allergic reactions"
+      ]
+    },
+    "high fructose corn syrup": {
+      "diseases": [
+        "high fructose corn syrup is Linked to obesity, type 2 diabetes, and fatty liver"
+      ]
+    },
+    "monosodium glutamate": {
+      "diseases": [
+        "monosodium glutamate may cause headaches and allergic reactions",
+        "Some report sensitivity symptoms like nausea"
+      ]
+      },
+    "MSG": {
+      "diseases": [
+        "MSG may cause headaches and allergic reactions",
+        "Some report sensitivity symptoms like nausea"
+      ]
+    },
+    "sodium nitrite": {
+      "diseases": [
+        "sodium nitrite May form carcinogenic nitrosamines in cooked meats",
+        "Linked to stomach and colorectal cancer risks"
+      ]
+    },
+    "potassium bromate": {
+      "diseases": [
+        "potassium bromate is classified as a potential carcinogen",
+        "Linked to kidney and thyroid problems"
+      ]
+    },
+    "titanium dioxide": {
+      "diseases": [
+        "titanium dioxide gives Potential digestive issues",
+        "Linked to cancer in animal studies"
+      ]
+    },
+    "azodicarbonamide": {
+      "diseases": [
+        "azodicarbonamide Potentially gives respiratory issues",
+        "Linked to cancer in animal studies"
+      ]
+    },
+    "propylparaben": {
+      "diseases": [
+        "propylparaben: Hormonal disruption",
+        "Potential reproductive toxicity"
+      ]
+    },
+    "butylated hydroxyanisole": {
+      "diseases": [
+        "butylated hydroxyanisole gives Possible cancer risk",
+        "May cause liver damage in high doses"
+      ]
+      },
+    "BHA": {
+      "diseases": [
+        "BHA: Possible cancer risk",
+        "May cause liver damage in high doses"
+      ]
+    },
+    "butylated hydroxytoluene": {
+      "diseases": [
+        "butylated hydroxytoluene: Possible cancer risk",
+        "May cause liver damage in high doses"
+      ]
+       },
+    "BHT": {
+      "diseases": [
+        "BHT: Possible cancer risk",
+        "May cause liver damage in high doses"
+      ]
+  },
+  "azorubine": {
+    "diseases": [
+      "Azorubine is linked to hyperactivity in children",
+      "Azorubine may cause allergic reactions in sensitive individuals"
+    ]
+  },
+  "carrageenan": {
+    "diseases": [
+      "Carrageenan may trigger inflammation and digestive issues"
+    ]
+  },
+  "sorbitol": {
+    "diseases": [
+      "Sorbitol may cause digestive issues in large amounts",
+      "Sorbitol may cause diarrhea"
+    ]
+  },
+  "propylene glycol": {
+    "diseases": [
+      "Propylene glycol may cause skin irritation",
+      "Propylene glycol may cause possible kidney damage in high intake"
+    ]
+  },
+  "polysorbate 80": {
+    "diseases": [
+      "Polysorbate 80 may cause digestive issues",
+      "Polysorbate 80 may have possible gut health effects"
+    ]
+  },
+  "carboxymethyl cellulose": {
+    "diseases": [
+      "Carboxymethyl cellulose may cause digestive issues",
+      "Carboxymethyl cellulose may cause potential metabolic effects"
+    ]
+  },
+  "CMC": {
+    "diseases": [
+      "CMC may cause digestive issues",
+      "CMC may cause potential metabolic effects"
+    ]
+  },
+  "hydrogenated oils": {
+    "diseases": [
+      "Hydrogenated oils contain trans fats",
+      "Hydrogenated oils are linked to heart disease and obesity"
+    ]
+  },
+  "trans fats": {
+    "diseases": [
+      "Trans fats increase LDL cholesterol",
+      "Trans fats are linked to heart disease"
+    ]
+  },
+  "palm oil": {
+    "diseases": [
+      "Palm oil is high in saturated fats",
+      "Palm oil is linked to cardiovascular disease in excess"
+    ]
+  },
+  "vegetable oil (refined)": {
+    "diseases": [
+      "Vegetable oil (refined) excessive omega-6 intake may cause inflammation",
+      "Vegetable oil (refined) may cause potential oxidative damage when heated"
+    ]
+  },
+  "canola oil": {
+    "diseases": [
+      "Canola oil may contain omega-6 fatty acids in excess",
+      "Canola oil may oxidize easily when processed"
+    ]
+  },
+  "soybean oil": {
+    "diseases": [
+      "Soybean oil’s high omega-6 content may cause inflammation",
+      "Soybean oil may act as a potential allergen for sensitive individuals"
+    ]
+  },
+  "corn syrup": {
+    "diseases": [
+      "Corn syrup is high in fructose",
+      "Corn syrup is linked to obesity and metabolic syndrome"
+    ]
+  },
+  "dextrose": {
+    "diseases": [
+      "Dextrose may cause blood sugar spikes",
+      "Dextrose may lead to potential insulin resistance"
+    ]
+  },
+  "glucose": {
+    "diseases": [
+      "Glucose may cause blood sugar spikes",
+      "Glucose may increase risk for metabolic disorders"
+    ]
+  },
+  "fructose": {
+    "diseases": [
+      "Fructose excess intake is linked to fatty liver disease",
+      "Fructose can cause insulin resistance"
+    ]
+  },
+  "maltodextrin": {
+    "diseases": [
+      "Maltodextrin may cause blood sugar spikes",
+      "Maltodextrin may alter gut microbiome"
+    ]
+  },
+  "modified starch": {
+    "diseases": [
+      "Modified starch may cause digestive issues",
+      "Modified starch may cause blood sugar spikes"
+    ]
+  },
+  "potato starch": {
+    "diseases": [
+      "Potato starch may cause blood sugar spikes",
+      "Potato starch may cause digestive discomfort in large amounts"
+    ]
+  },
+  "corn starch": {
+    "diseases": [
+      "Corn starch may spike blood sugar levels",
+      "Corn starch may cause potential metabolic issues"
+    ]
+  },
+  "rice flour": {
+    "diseases": [
+      "Rice flour may raise blood sugar",
+      "Rice flour may cause potential arsenic exposure depending on source"
+    ]
+  },
+  "barley malt extract": {
+    "diseases": [
+      "Barley malt extract may affect blood sugar",
+      "Barley malt extract may be a potential allergen for gluten-sensitive people"
+    ]
+  },
+  "tapioca starch": {
+    "diseases": [
+      "Tapioca starch may spike blood sugar",
+      "Tapioca starch has low nutrient content"
+    ]
+  },
+  "yeast extract": {
+    "diseases": [
+      "Yeast extract is high in sodium",
+      "Yeast extract may affect blood pressure"
+    ]
+  },
+  "baking powder": {
+    "diseases": [
+      "Baking powder contributes to high sodium intake",
+      "Baking powder may cause digestive discomfort in excess"
+    ]
+  },
+  "calcium carbonate": {
+    "diseases": [
+      "Calcium carbonate excess can cause kidney stones",
+      "Calcium carbonate may cause digestive issues in high doses"
+    ]
+  },
+  "calcium phosphate": {
+    "diseases": [
+      "Calcium phosphate excess can cause kidney stones",
+      "Calcium phosphate may cause digestive issues"
+    ]
+  },
+  "magnesium stearate": {
+    "diseases": [
+      "Magnesium stearate may cause digestive issues",
+      "Magnesium stearate may cause possible immune response"
+    ]
+  },
+  "silicon dioxide": {
+    "diseases": [
+      "Silicon dioxide may cause potential lung issues if inhaled in powder form",
+      "Silicon dioxide may cause digestive concerns in large amounts"
+    ]
+  },
+  "sodium citrate": {
+    "diseases": [
+      "Sodium citrate high intake may affect kidney function",
+      "Sodium citrate may cause electrolyte imbalance in large amounts"
+    ]
+  },
+  "citric acid": {
+    "diseases": [
+      "Citric acid can cause digestive irritation in sensitive individuals",
+      "Citric acid may cause dental erosion in large amounts"
+    ]
+  },
+  "ascorbic acid": {
+    "diseases": [
+      "Ascorbic acid is generally safe",
+      "Ascorbic acid excess may cause kidney stones"
+    ]
+  },
+  "lactic acid": {
+    "diseases": [
+      "Lactic acid may cause digestive discomfort in sensitive people",
+      "Lactic acid excess intake can affect electrolytes"
+    ]
+  },
+  "malic acid": {
+    "diseases": [
+      "Malic acid may irritate stomach lining in sensitive individuals",
+      "Malic acid may cause dental erosion"
+    ]
+  },
+  "tartaric acid": {
+    "diseases": [
+      "Tartaric acid may cause potential digestive issues",
+      "Tartaric acid excess may cause electrolyte imbalance"
+    ]
+  },
+  "acetic acid": {
+    "diseases": [
+      "Acetic acid can irritate digestive system",
+      "Acetic acid may cause dental erosion with excessive intake"
+    ]
+  },
+  "fumaric acid": {
+    "diseases": [
+      "Fumaric acid may cause digestive issues",
+      "Fumaric acid may cause potential kidney irritation"
+    ]
+  },
+  "succinic acid": {
+    "diseases": [
+      "Succinic acid may cause digestive discomfort in high amounts",
+      "Succinic acid may cause potential metabolic effect"
+    ]
+  },
+  "glutamic acid": {
+    "diseases": [
+      "Glutamic acid may cause neurotoxic effects in excess",
+      "Glutamic acid may cause headaches or sensitivity reactions"
+    ]
+  },
+  "glycolic acid": {
+    "diseases": [
+      "Glycolic acid may cause skin irritation in topical use",
+      "Glycolic acid may cause digestive issues if ingested in large amounts"
+    ]
+  },
+  "erythrosine": {
+    "diseases": [
+      "Erythrosine may cause thyroid tumors in animals",
+      "Erythrosine may be a potential carcinogen"
+    ]
+  },
+  "red 3": {
+    "diseases": [
+      "Red 3 may cause thyroid tumors in animals",
+      "Red 3 may be a potential carcinogen"
+    ]
+  },
+  "carmoisine": {
+    "diseases": [
+      "Carmoisine may cause allergic reactions",
+      "Carmoisine may cause hyperactivity in children"
+    ]
+},
+"red 2": {
+    "diseases": [
+      "Red 2 may cause allergic reactions",
+      "Red 2 is linked to hyperactivity in children"
+    ]
+  },
+  "brilliant black BN": {
+    "diseases": [
+      "Brilliant black BN may cause allergic reactions",
+      "Brilliant black BN may have potential behavioral effects"
+    ]
+  },
+  "indigotine": {
+    "diseases": [
+      "Indigotine may cause allergic reactions in sensitive individuals"
+    ]
+  },
+  "blue 2": {
+    "diseases": [
+      "Blue 2 may cause allergic reactions in sensitive individuals"
+    ]
+  },
+  "fast green FCF": {
+    "diseases": [
+      "Fast green FCF has shown potential cancer risk in animals",
+      "Fast green FCF may cause allergic reactions"
+    ]
+  },
+  "quinoline yellow": {
+    "diseases": [
+      "Quinoline yellow is linked to hyperactivity in children",
+      "Quinoline yellow may cause potential allergic reactions"
+    ]
+  },
+  "ponceau 4R": {
+    "diseases": [
+      "Ponceau 4R is linked to hyperactivity in children",
+      "Ponceau 4R may cause potential allergic reactions"
+    ]
+  },
+  "sunset yellow FCF": {
+    "diseases": [
+      "Sunset yellow FCF is linked to hyperactivity in children",
+      "Sunset yellow FCF may cause allergic reactions"
+    ]
+  },
+  "fast yellow AB": {
+    "diseases": [
+      "Fast yellow AB may cause potential allergic reactions",
+      "Fast yellow AB may cause behavioral concerns"
+    ]
+  },
+  "carminic acid": {
+    "diseases": [
+      "Carminic acid may cause allergic reactions",
+      "Carminic acid may lead to potential skin irritation"
+    ]
+  },
+  "annatto": {
+    "diseases": [
+      "Annatto may cause allergic reactions",
+      "Annatto is linked to hyperactivity in children"
+    ]
+  },
+  "cochineal": {
+    "diseases": [
+      "Cochineal may cause allergic reactions",
+      "Cochineal may cause potential digestive issues"
+    ]
+  },
+  "butter yellow": {
+    "diseases": [
+      "Butter yellow is carcinogenic in animals",
+      "Butter yellow is banned in many countries"
+    ]
+  },
+  "methyl yellow": {
+    "diseases": [
+      "Methyl yellow is carcinogenic in animals",
+      "Methyl yellow may pose a potential human risk"
+    ]
+  },
+  "ammonium sulfate": {
+    "diseases": [
+      "Ammonium sulfate may irritate skin and eyes",
+      "Ammonium sulfate may cause potential respiratory issues"
+    ]
+  },
+  "arsenate": {
+    "diseases": [
+      "Arsenate is toxic and carcinogenic",
+      "Arsenate is linked to skin and lung cancer"
+    ]
+  },
+  "barium sulfate": {
+    "diseases": [
+      "Barium sulfate in high exposure can cause kidney and heart problems"
+    ]
+  },
+  "benzoic acid": {
+    "diseases": [
+      "Benzoic acid can cause allergic reactions",
+      "Benzoic acid may form benzene in combination with vitamin C"
+    ]
+  },
+  "benzyl alcohol": {
+    "diseases": [
+      "Benzyl alcohol can cause respiratory and skin irritation",
+      "Benzyl alcohol is toxic in large doses"
+    ]
+  },
+  "bixin": {
+    "diseases": [
+      "Bixin may trigger allergic reactions",
+      "Bixin may cause potential digestive discomfort"
+    ]
+  },
+  "calcium disodium EDTA": {
+    "diseases": [
+      "Calcium disodium EDTA may interfere with mineral absorption",
+      "Calcium disodium EDTA may cause potential kidney stress"
+    ]
+  },
+  "calcium propionate": {
+    "diseases": [
+      "Calcium propionate is linked to irritability in children",
+      "Calcium propionate may cause digestive issues"
+    ]
+  },
+  "caffeine": {
+    "diseases": [
+      "Caffeine may cause insomnia and anxiety",
+      "Caffeine in high doses can cause heart palpitations"
+    ]
+  },
+  "copper sulfate": {
+    "diseases": [
+      "Copper sulfate is toxic in high doses",
+      "Copper sulfate can cause liver and kidney damage"
+    ]
+  },
+  "dimethylpolysiloxane": {
+    "diseases": [
+      "Dimethylpolysiloxane is generally considered safe",
+      "Dimethylpolysiloxane may cause potential digestive discomfort in large amounts"
+    ]
+  },
+  "edible wax": {
+    "diseases": [
+      "Edible wax may cause digestive issues if consumed in excess"
+    ]
+  },
+  "ethylparaben": {
+    "diseases": [
+      "Ethylparaben may cause hormonal disruption",
+      "Ethylparaben may have potential reproductive effects"
+    ]
+  },
+  "formaldehyde": {
+    "diseases": [
+      "Formaldehyde is carcinogenic",
+      "Formaldehyde may cause respiratory and skin irritation"
+    ]
+  },
+  "glycerol monooleate": {
+    "diseases": [
+      "Glycerol monooleate may cause digestive discomfort in some individuals"
+    ]
+  },
+  "hexane-extracted oils": {
+    "diseases": [
+      "Hexane-extracted oils may contain potential chemical residues",
+      "Hexane-extracted oils may impact liver and kidney health"
+    ]
+  },
+  "isononyl alcohol": {
+    "diseases": [
+      "Isononyl alcohol may cause potential liver toxicity",
+      "Isononyl alcohol may irritate skin or eyes"
+    ]
+  },
+  "lecithin": {
+    "diseases": [
+      "Lecithin (non-soy) may act as a potential allergen",
+      "Lecithin (non-soy) may cause digestive discomfort in large amounts"
+    ]
+  },
+  "lysozyme": {
+    "diseases": [
+      "Lysozyme may cause allergic reactions in sensitive individuals"
+    ]
+  },
+  "magnesium carbonate": {
+    "diseases": [
+      "Magnesium carbonate in excess can cause digestive issues",
+      "Magnesium carbonate may cause potential electrolyte imbalance"
+    ]
+  },
+  "maltol": {
+    "diseases": [
+      "Maltol may cause potential allergic reactions",
+      "Maltol in high doses may be toxic"
+    ]
+  },
+  "monopotassium phosphate": {
+    "diseases": [
+      "Monopotassium phosphate in excess can affect kidney function",
+      "Monopotassium phosphate may cause electrolyte imbalance"
+    ]
+},
+  "methylcellulose": {
+    "diseases": [
+      "Methylcellulose may cause digestive discomfort",
+      "Methylcellulose may have a possible laxative effect"
+    ]
+  },
+  "monoammonium phosphate": {
+    "diseases": [
+      "Monoammonium phosphate in high intake may affect kidney and heart health"
+    ]
+  },
+  "niacinamide": {
+    "diseases": [
+      "Niacinamide in excess may cause liver damage",
+      "Niacinamide may cause flushing and nausea"
+    ]
+  },
+  "nitric oxide releasing compounds": {
+    "diseases": [
+      "Nitric oxide releasing compounds may cause potential oxidative stress",
+      "Nitric oxide releasing compounds may affect cardiovascular health"
+    ]
+  },
+  "octyl gallate": {
+    "diseases": [
+      "Octyl gallate may cause potential endocrine disruption",
+      "Octyl gallate may cause skin irritation"
+    ]
+  },
+  "ozone-treated flour": {
+    "diseases": [
+      "Ozone-treated flour may reduce nutrient content",
+      "Ozone-treated flour may cause potential oxidative effects"
+    ]
+  },
+  "para-toluenesulfonamide": {
+    "diseases": [
+      "Para-toluenesulfonamide may cause possible liver toxicity",
+      "Para-toluenesulfonamide may cause skin and eye irritation"
+    ]
+  },
+  "phosphoric acid": {
+    "diseases": [
+      "Phosphoric acid can weaken bones",
+      "Phosphoric acid is linked to kidney disease in high intake"
+    ]
+  },
+  "polydimethylsiloxane": {
+    "diseases": [
+      "Polydimethylsiloxane may cause digestive discomfort",
+      "Polydimethylsiloxane may have potential for chemical residues"
+    ]
+  },
+  "polyethylene glycol": {
+    "diseases": [
+      "Polyethylene glycol may cause digestive issues in high doses",
+      "Polyethylene glycol may cause allergic reactions"
+    ]
+  },
+  "potassium chloride": {
+    "diseases": [
+      "Potassium chloride in excess can cause heart arrhythmias",
+      "Potassium chloride may cause kidney stress"
+    ]
+  },
+  "potassium phosphate": {
+    "diseases": [
+      "Potassium phosphate may affect kidney function in high amounts"
+    ]
+  },
+  "propionic acid": {
+    "diseases": [
+      "Propionic acid may cause irritability and digestive issues",
+      "Propionic acid may cause potential allergic reactions"
+    ]
+  },
+  "propylene glycol alginate": {
+    "diseases": [
+      "Propylene glycol alginate may cause digestive discomfort in sensitive individuals"
+    ]
+  },
+  "saccharin sodium": {
+    "diseases": [
+      "Saccharin sodium may have potential bladder cancer risk in animal studies",
+      "Saccharin sodium may cause allergic reactions"
+    ]
+  },
+  "sodium aluminium phosphate": {
+    "diseases": [
+      "Sodium aluminium phosphate is linked to neurotoxicity",
+      "Sodium aluminium phosphate may pose potential Alzheimer’s risk"
+    ]
+  },
+  "sodium borate": {
+    "diseases": [
+      "Sodium borate is toxic in high doses",
+      "Sodium borate may affect fertility"
+    ]
+  },
+  "sodium erythorbate": {
+    "diseases": [
+      "Sodium erythorbate may form nitrosamines in certain conditions",
+      "Sodium erythorbate may cause potential oxidative stress"
+    ]
+  },
+  "sodium hydrosulfite": {
+    "diseases": [
+      "Sodium hydrosulfite may cause potential skin and respiratory irritation"
+    ]
+  },
+  "sodium hypophosphite": {
+    "diseases": [
+      "Sodium hypophosphite in excess intake may affect kidneys",
+      "Sodium hypophosphite may cause digestive discomfort"
+    ]
+  },
+  "sodium lauryl sulfate": {
+    "diseases": [
+      "Sodium lauryl sulfate may cause skin and digestive irritation",
+      "Sodium lauryl sulfate may cause potential toxicity if ingested in large amounts"
+    ]
+  },
+  "sodium molybdate": {
+    "diseases": [
+      "Sodium molybdate is toxic in high amounts",
+      "Sodium molybdate may cause kidney and liver issues"
+    ]
+  },
+  "sodium silicate": {
+    "diseases": [
+      "Sodium silicate may cause digestive irritation",
+      "Sodium silicate may cause potential lung issues if inhaled"
+    ]
+  },
+  "sodium sulfite": {
+    "diseases": [
+      "Sodium sulfite may cause allergic reactions",
+      "Sodium sulfite may trigger asthma"
+    ]
+  },
+  "sodium thiosulfate": {
+    "diseases": [
+      "Sodium thiosulfate may cause digestive discomfort in large doses",
+      "Sodium thiosulfate may have potential metabolic effects"
+    ]
+  },
+  "sorbitan esters": {
+    "diseases": [
+      "Sorbitan esters may cause digestive discomfort",
+      "Sorbitan esters may act as a potential allergen"
+    ]
+ },"sucrose acetate isobutyrate": {
+    "diseases": [
+      "Sucrose acetate isobutyrate may cause digestive issues",
+      "Sucrose acetate isobutyrate may have potential metabolic effects"
+    ]
+  },
+  "sucralose acesulfame": {
+    "diseases": [
+      "Sucralose acesulfame may alter gut microbiota",
+      "Sucralose acesulfame may cause potential glucose intolerance"
+    ]
+  },
+  "t-butylhydroquinone (TBHQ)": {
+    "diseases": [
+      "T-butylhydroquinone (TBHQ) may cause nausea and vomiting",
+      "T-butylhydroquinone (TBHQ) may pose potential cancer risk in high doses"
+    ]
+  },
+  "triacetin": {
+    "diseases": [
+      "Triacetin may cause digestive discomfort",
+      "Triacetin may cause potential liver toxicity"
+    ]
+  },
+  "triethanolamine": {
+    "diseases": [
+      "Triethanolamine may cause skin irritation",
+      "Triethanolamine may have potential liver and kidney effects in high doses"
+    ]
+  },
+  "tricalcium phosphate": {
+    "diseases": [
+      "Tricalcium phosphate in excess intake may affect kidney function",
+      "Tricalcium phosphate may cause digestive issues"
+    ]
+  },
+  "turmeric oleoresin (synthetic)": {
+    "diseases": [
+      "Turmeric oleoresin (synthetic) may cause potential liver toxicity",
+      "Turmeric oleoresin (synthetic) may cause allergic reactions"
+    ]
+  },
+  "vanillin (synthetic)": {
+    "diseases": [
+      "Vanillin (synthetic) may be a potential allergen",
+      "Vanillin (synthetic) may cause headaches in sensitive individuals"
+    ]
+  },
+  "xylitol": {
+    "diseases": [
+      "Xylitol may cause digestive discomfort in high amounts",
+      "Xylitol is toxic to dogs"
+    ]
+  },
+  "yellow 6 lake": {
+    "diseases": [
+      "Yellow 6 lake may cause hyperactivity in children",
+      "Yellow 6 lake may cause allergic reactions"
+    ]
+  },
+  "zinc oxide": {
+    "diseases": [
+      "Zinc oxide in high doses can be toxic",
+      "Zinc oxide may cause digestive issues"
+    ]
+  },
+  "caffeine anhydrous": {
+    "diseases": [
+      "Caffeine anhydrous may cause insomnia, anxiety, and heart palpitations",
+      "Caffeine anhydrous may lead to potential dependency"
+    ]
+  },
+  "cocoa solids (alkalized)": {
+    "diseases": [
+      "Cocoa solids (alkalized) may contain higher levels of heavy metals",
+      "Cocoa solids (alkalized) may cause potential oxidative stress"
+    ]
+  },
+  "sulfur dioxide": {
+    "diseases": [
+      "Sulfur dioxide may trigger asthma",
+      "Sulfur dioxide may cause digestive discomfort in sensitive individuals"
+    ]
+  },
+  "methyl paraben": {
+    "diseases": [
+      "Methyl paraben may cause hormonal disruption",
+      "Methyl paraben may have potential reproductive toxicity"
+    ]
+  },
+  "ethyl cellulose": {
+    "diseases": [
+      "Ethyl cellulose may cause digestive issues in large amounts"
+    ]
+  },
+  "acetylated monoglycerides": {
+    "diseases": [
+      "Acetylated monoglycerides may cause digestive discomfort",
+      "Acetylated monoglycerides may have potential metabolic effects"
+    ]
+  },
+  "lecithin (soy)": {
+    "diseases": [
+      "Lecithin (soy) may cause allergic reactions",
+      "Lecithin (soy) may cause digestive discomfort in sensitive people"
+    ]
+  },
+  "phosphates (food grade)": {
+    "diseases": [
+      "Phosphates (food grade) in excess intake may be linked to kidney and heart problems"
+    ]
+  },
+  "brominated vegetable oil": {
+    "diseases": [
+      "Brominated vegetable oil is linked to hormone disruption",
+      "Brominated vegetable oil may accumulate in body fat"
+    ]
+  },
+  "hydroxypropyl methylcellulose": {
+    "diseases": [
+      "Hydroxypropyl methylcellulose may cause digestive issues",
+      "Hydroxypropyl methylcellulose may have potential laxative effect"
+    ]
+  },
+  "tert-butylhydroquinone (TBHQ)": {
+    "diseases": [
+      "Tert-butylhydroquinone (TBHQ) may cause nausea and vomiting",
+      "Tert-butylhydroquinone (TBHQ) may pose potential cancer risk in high doses"
+    ]
+  },
+  "bromate": {
+    "diseases": [
+      "Bromate is carcinogenic in animals",
+      "Bromate is linked to kidney and thyroid cancer"
+    ]
+  },
+  "chlorine dioxide": {
+    "diseases": [
+      "Chlorine dioxide is irritating to eyes, skin, and respiratory tract",
+      "Chlorine dioxide is toxic if ingested in high doses"
+    ]
+  },
+  "Red 3": {
+    "diseases": [
+      "Red 3 is linked to thyroid tumors in animal studies",
+      "Red 3 may cause hyperactivity in children"
+    ]
+  },
+  "Red 2": {
+    "diseases": [
+      "Red 2 may be a potential carcinogen in animals",
+      "Red 2 may trigger hyperactivity and allergies"
+    ]
+  },
+  "indigo carmine": {
+    "diseases": [
+      "Indigo carmine may cause allergic reactions",
+      "Indigo carmine may cause potential kidney toxicity"
+    ]
+  },
+  "allura red AC": {
+    "diseases": [
+      "Allura red AC may cause hyperactivity in children",
+      "Allura red AC may cause potential allergic reactions"
+    ]
+  },
+  "tartrazine": {
+    "diseases": [
+      "Tartrazine is linked to hyperactivity in children",
+      "Tartrazine may trigger allergic reactions"
+    ]
+  },
+  "Yellow 5": {
+    "diseases": [
+      "Yellow 5 is linked to hyperactivity in children",
+      "Yellow 5 may trigger allergic reactions"
+    ]
+  },
+  "Yellow 6": {
+    "diseases": [
+      "Yellow 6 may cause hyperactivity in children",
+      "Yellow 6 may cause skin and respiratory allergies"
+    ]
+  },
+  "brilliant blue FCF": {
+    "diseases": [
+      "Brilliant blue FCF may cause potential hyperactivity in children",
+      "Brilliant blue FCF may cause allergic reactions"
+    ]
+  },
+  "Blue 1": {
+    "diseases": [
+      "Blue 1 may cause potential hyperactivity in children",
+      "Blue 1 may cause allergic reactions"
+    ]
+  },
+  "fast scarlet": {
+    "diseases": [
+      "Fast scarlet may cause potential mutagenic effects",
+      "Fast scarlet may cause allergic reactions"
+    ]
+  },
+  "neotame": {
+    "diseases": [
+      "Neotame may cause digestive discomfort",
+      "Neotame may affect neurological function in rare cases"
+    ]
+  },
+  "acesulfame potassium": {
+    "diseases": [
+      "Acesulfame potassium may alter gut microbiota",
+      "Acesulfame potassium may cause potential headaches or migraines"
+    ]
+  },
+  "cyclamate": {
+    "diseases": [
+      "Cyclamate is banned in some countries due to carcinogenicity concerns",
+      "Cyclamate may alter gut bacteria"
+    ]
+  },
+  "diacetyl": {
+    "diseases": [
+      "Diacetyl is linked to lung disease",
+      "Diacetyl may cause respiratory irritation"
+    ]
+  },
+  "ADA": {
+    "diseases": [
+      "ADA may cause respiratory issues",
+      "ADA is linked to asthma"
+    ]
+  },
+  "hydrogenated soybean oil": {
+    "diseases": [
+      "Hydrogenated soybean oil contains trans fats",
+      "Hydrogenated soybean oil may increase cholesterol and heart disease risk"
+    ]
+  },
+  "partially hydrogenated oils": {
+    "diseases": [
+      "Partially hydrogenated oils are linked to cardiovascular disease",
+      "Partially hydrogenated oils may raise LDL cholesterol"
+    ]
+  },
+  "pyridoxine hydrochloride": {
+    "diseases": [
+      "Pyridoxine hydrochloride in excess can cause nerve damage",
+      "Pyridoxine hydrochloride may lead to numbness or tingling"
+    ]
+  },
+"gellan gum": {
+  "diseases": [
+    "May cause bloating or digestive discomfort",
+    "Potential laxative effects"
+  ]
+},
+"sodium stearoyl lactylate": {
+  "diseases": [
+    "Possible digestive issues in sensitive individuals"
+  ]
+},
+"calcium stearoyl lactylate": {
+  "diseases": [
+    "May cause mild digestive discomfort"
+  ]
+},
+"propylene glycol mono- and diesters": {
+  "diseases": [
+    "Digestive discomfort",
+    "Potential allergen"
+  ]
+},
+"polysorbate 20": {
+  "diseases": [
+    "May affect gut microbiota",
+    "Digestive discomfort"
+  ]
+},
+"polysorbate 60": {
+  "diseases": [
+    "Digestive irritation",
+    "Potential allergen"
+  ]
+},
+"polysorbate 65": {
+  "diseases": [
+    "Digestive discomfort in sensitive individuals"
+  ]
+},
+"mono- and diglycerides": {
+  "diseases": [
+    "May contain trans fats",
+    "Potential heart health impact"
+  ]
+},
+"soy protein isolate": {
+  "diseases": [
+    "Potential allergen",
+    "Digestive discomfort in sensitive people"
+  ]
+},
+"wheat gluten": {
+  "diseases": [
+    "May trigger celiac disease or gluten sensitivity",
+    "Digestive issues"
+  ]
+},
+"corn syrup solids": {
+  "diseases": [
+    "High sugar content",
+    "May contribute to obesity and diabetes"
+  ]
+},
+"glucose syrup": {
+  "diseases": [
+    "High sugar content",
+    "May contribute to metabolic syndrome"
+  ]
+},
+"mannitol": {
+  "diseases": [
+    "Laxative effect",
+    "May cause digestive discomfort"
+  ]
+},
+"isomalt": {
+  "diseases": [
+    "May cause gas and diarrhea in sensitive individuals"
+  ]
+},
+"polydextrose": {
+  "diseases": [
+    "Digestive discomfort in high doses",
+    "May alter gut microbiota"
+  ]
+},
+"lactitol": {
+  "diseases": [
+    "May cause digestive issues",
+    "Potential laxative effect"
+  ]
+},
+"lactulose": {
+  "diseases": [
+    "Laxative effect",
+    "Digestive discomfort in excess"
+  ]
+},
+"xanthan gum": {
+  "diseases": [
+    "Digestive issues in large amounts",
+    "May cause gas and bloating"
+  ]
+},
+"guar gum": {
+  "diseases": [
+    "May cause digestive discomfort",
+    "Possible allergic reactions"
+  ]
+},
+"locust bean gum": {
+  "diseases": [
+    "Digestive discomfort in sensitive individuals",
+    "Potential laxative effect"
+  ]
+},
+"hydroxypropyl cellulose": {
+  "diseases": [
+    "Digestive issues in high doses"
+  ]
+},
+"calcium stearoyl-2-lactylate": {
+  "diseases": [
+    "May cause digestive discomfort",
+    "Potential mild laxative effect"
+  ]
+},
+"sodium stearoyl-2-lactylate": {
+  "diseases": [
+    "Digestive discomfort in sensitive individuals"
+  ]
+},
+"tert-butylhydroquinone": {
+  "diseases": [
+    "Potential nausea and vomiting",
+    "May be carcinogenic in high doses"
+  ]
+},
+"propyl gallate": {
+  "diseases": [
+    "May cause allergic reactions",
+    "Potential endocrine disruption"
+  ]
+},
+"propyl paraben": {
+  "diseases": [
+    "Hormonal disruption",
+    "Potential reproductive toxicity"
+  ]
+},
+"isobutyl paraben": {
+  "diseases": [
+    "Hormonal disruption",
+    "Potential reproductive toxicity"
+  ]
+},
+"ethyl paraben": {
+  "diseases": [
+    "Hormonal disruption",
+    "Potential reproductive toxicity"
+  ]
+    }
+  }
+}
+
