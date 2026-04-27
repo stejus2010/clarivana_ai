@@ -1,5 +1,5 @@
 // chat.js - Gemini Chatbot integration (with model-controlled word limit)
-const GEMINI_API_KEY = "AIzaSyAC6RyMxHDQYqntTJcraeuXAsGY6MJYbjs"; // Replace with your API key
+const GEMINI_API_KEY = "AIzaSyB1nyO2c9At8GfKNYFAOjCQeLC0MZ4VDTk"; // Replace with your API key
 const MODEL = "gemini-2.5-flash"; // Stable version
 
 const chatBox = document.getElementById("chat-box");
